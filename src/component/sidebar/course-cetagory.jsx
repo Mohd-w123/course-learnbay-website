@@ -1,69 +1,39 @@
 
 
 
-const title = "Course Categories";
+const title = "More Courses";
 
 
 const cscContentList = [
     {
         link: '#',
-        left: 'Personal Development',
+        left: 'Advanced Data Science and AI Program',
         right: '30',
     },
     {
         link: '#',
-        left: 'Photography',
+        left: 'Data Science and Artificial Intelligence Program',
         right: '20',
     },
     {
         link: '#',
-        left: 'Teaching and Academics',
+        left: 'Artificial Intelligence and Machine Learning',
         right: '93',
     },
     {
         link: '#',
-        left: 'Art and Design',
+        left: 'Data Science and AI Program with 100% Job Guarantee',
         right: '54',
     },
     {
         link: '#',
-        left: 'Business',
+        left: 'Full-Stack Software Development Program',
         right: '28',
     },
     {
         link: '#',
-        left: 'Data Science',
+        left: 'Data Structures Algorithms And System Design',
         right: '30',
-    },
-    {
-        link: '#',
-        left: 'Development',
-        right: '38',
-    },
-    {
-        link: '#',
-        left: 'Finance',
-        right: '75',
-    },
-    {
-        link: '#',
-        left: 'Health & Fitness',
-        right: '89',
-    },
-    {
-        link: '#',
-        left: 'Lifestyle',
-        right: '37',
-    },
-    {
-        link: '#',
-        left: 'Marketing',
-        right: '18',
-    },
-    {
-        link: '#',
-        left: 'Music',
-        right: '20',
     },
 ]
 
@@ -80,7 +50,7 @@ const CourseSideCetagory = () => {
                         {cscContentList.map((val, i) => (
                             <li key={i}>
                                 <div className="csdc-left"><a href={val.link}>{val.left}</a></div>
-                                <div className="csdc-right">{val.right}</div>
+                                {/* <div className="csdc-right">{val.right}</div> */}
                             </li>
                         ))}
                     </ul>

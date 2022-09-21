@@ -2,101 +2,122 @@
 import { Link } from "react-router-dom";
 
 const newsTitle = "Want Us To Email You About Special Offers And Updates?";
-const siteTitle = "Site Map";
-const useTitle = "Useful Links";
+const siteTitle = "Courses";
+const useTitle = "Learnbay";
 const socialTitle = "Social Contact";
-const supportTitle = "Our Support";
+const supportTitle = "Our Branches";
 
 
 const siteList = [
     {
-        text: 'Documentation',
-        link: '#',
+        text: 'Data Science Foundation Program',
+        link: '/advance-data-science-certification-courses',
     },
     {
-        text: 'Feedback',
-        link: '#',
+        text: 'Advanced DS And AI Program',
+        link: '/advance-data-science-certification-courses.jsx',
     },
     {
-        text: 'Plugins',
-        link: '#',
+        text: 'Full Stack Software Development Program',
+        link: 'advance-data-science-certification-courses.jsx',
     },
     {
-        text: 'Support Forums',
-        link: '#',
+        text: 'Advance AI & ML Program For Tech Professionals',
+        link: 'advance-data-science-certification-courses.jsx',
     },
     {
-        text: 'Themes',
-        link: '#',
+        text: 'Data Science & AI For Managers',
+        link: 'advance-data-science-certification-courses.jsx',
+    },
+    {
+        text: 'Data Science & AI With Job Guarantee Program',
+        link: 'advance-data-science-certification-courses.jsx',
+    },
+    {
+        text: 'Business Analytics Program',
+        link: 'advance-data-science-certification-courses.jsx',
+    },
+    {
+        text: 'Data Analytics Program',
+        link: 'advance-data-science-certification-courses.jsx',
+    },
+    {
+        text: 'Data Structures Algorithms And System Design',
+        link: 'advance-data-science-certification-courses.jsx',
     },
 ]
 
 const useList = [
     {
         text: 'About Us',
-        link: '#',
-    },
-    {
-        text: 'Help Link',
-        link: '#',
-    },
-    {
-        text: 'Terms & Conditions',
-        link: '#',
+        link: '/about',
     },
     {
         text: 'Contact Us',
         link: '#',
     },
     {
-        text: 'Privacy Policy',
-        link: '#',
+        text: 'Apply Now',
+        link: '/applynow',
     },
 ]
 
 const socialList = [
     {
         text: 'Facebook',
-        link: '#',
+        link: 'https://www.facebook.com/learnbay/',
     },
     {
         text: 'Twitter',
-        link: '#',
+        link: 'https://twitter.com/Learnbay',
     },
     {
         text: 'Instagram',
-        link: '#',
+        link: 'https://www.instagram.com/learnbayofficial/',
     },
     {
         text: 'YouTube',
-        link: '#',
+        link: 'https://www.youtube.com/channel/UC-ntE_GnjjiUuKYqih9ENYA/featured',
     },
     {
-        text: 'Github',
-        link: '#',
+        text: 'LinkedIn',
+        link: 'https://www.linkedin.com/company/learnbay/?original_referer=http%3A%2F%2Flocalhost%3A3001%2F',
     },
 ]
 
 const supportList = [
     {
-        text: 'Help Center',
-        link: '#',
+        text: 'Pune',
+        link: 'https://www.learnbay.co/data-science-course-training-in-pune',
     },
     {
-        text: 'Paid with Mollie',
-        link: '#',
+        text: 'Mumbai',
+        link: 'https://www.learnbay.co/data-science-course-training-in-mumbai',
     },
     {
-        text: 'Status',
-        link: '#',
+        text: 'Chennai',
+        link: 'https://www.learnbay.co/data-science-course-training-in-chennai',
     },
     {
-        text: 'Changelog',
-        link: '#',
+        text: 'Canada',
+        link: 'https://www.learnbay.co/machine-learning-course-training-in-canada',
     },
     {
-        text: 'Contact Support',
-        link: '#',
+        text: 'Bangalore',
+        link: 'https://www.learnbay.co/data-analytics-course-training-in-bangalore',
+    },
+    {
+        text: 'Hyderabad',
+        link: 'https://www.learnbay.co/data-analytics-course-training-in-hyderabad',
+    },
+    {
+        text: 'Dubai',
+        link: 'https://www.learnbay.co/machine-learning-course-training-in-dubai',
+    },
+
+    {
+        text: 'Delhi',
+        link: 'https://www.learnbay.co/machine-learning-course-training-in-delhi',
     },
 ]
 
@@ -105,11 +126,11 @@ const supportList = [
 const Footer = () => {
     return (
         <div className="news-footer-wrap">
-            <div className="fs-shape">
+            {/* <div className="fs-shape">
                 <img src="assets/images/shape-img/03.png" alt="fst" className="fst-1" />
                 <img src="assets/images/shape-img/04.png" alt="fst" className="fst-2" />
             </div>
-            
+             */}
             <div className="news-letter">
                 <div className="container">
                     <div className="section-wrapper">
@@ -117,7 +138,7 @@ const Footer = () => {
                             <h3>{newsTitle}</h3>
                         </div>
                         <div className="news-form">
-                            <form action="/">
+                            <form action="https://getform.io/f/94c74039-f505-4ebf-922e-b4728bd793e3" method="POST">
                                 <div className="nf-list">
                                     <input type="email" name="email" placeholder="Enter Your Email" />
                                     <input type="submit" name="submit" value="Subscribe Now" />
@@ -210,12 +231,14 @@ const Footer = () => {
                 <div className="footer-bottom style-2">
                     <div className="container">
                         <div className="section-wrapper">
-                            <p>&copy; 2022 <Link to="/">Edukon</Link> Designed by <a href="https://themeforest.net/user/CodexCoder" target="_blank">CodexCoder</a> </p>
+                            <p>Copyright © 2022 <Link to="https://www.learnbay-courses.in">Courses Learnbay</Link> All Rights Reserved.</p>
                         </div>
                     </div>
                 </div>
             </footer>
         </div>
+
+
     );
 }
  

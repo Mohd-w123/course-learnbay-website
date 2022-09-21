@@ -1,26 +1,26 @@
 
 import CountUp from 'react-countup';
 
-const subTitle = "START TO SUCCESS";
-const title = "Achieve Your Goals With Edukon";
+const subTitle = "Placement Highlights";
+const title = "Achieve Your Goals With Learnbay";
 
 
 const achievementList = [
     {
-        count: '30',
-        desc: 'Years of Language Education Experience',
+        count: '250',
+        desc: 'Highest Salary Hike %',
     },
     {
-        count: '3084',
-        desc: 'Learners Enrolled in Edukon Courses',
+        count: '97',
+        desc: 'Average Salary Hike in %',
     },
     {
-        count: '330',
-        desc: 'Qualified Teachers And Language Experts',
+        count: '350',
+        desc: 'Hiring Partners',
     },
     {
-        count: '2300',
-        desc: 'Innovative Foreign Language Courses',
+        count: '1000',
+        desc: 'Careers Reshaped',
     },
 ]
 

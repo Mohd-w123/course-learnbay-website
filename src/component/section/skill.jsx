@@ -2,33 +2,33 @@
 import { Link } from "react-router-dom";
 
 
-const title = "Build Your Project Management Skills Online Anytime";
-const btnText = "Sign Up Now";
+const title = "Apply Now for demo session.";
+const btnText = "Apply Now";
 
 const skillList = [
     {
         imgUrl: 'assets/images/skill/icon/01.jpg',
         imgAlt: 'skill rajibraj91 rajibraj',
         title: 'Skilled Instructors',
-        desc: 'You pick the schedule.',
+        desc: '',
     },
     {
         imgUrl: 'assets/images/skill/icon/02.jpg',
         imgAlt: 'skill rajibraj91 rajibraj',
         title: 'Get Certificate',
-        desc: 'You pick the schedule.',
+        desc: '',
     },
     {
         imgUrl: 'assets/images/skill/icon/03.jpg',
         imgAlt: 'skill rajibraj91 rajibraj',
         title: 'Online Classes',
-        desc: 'You pick the schedule.',
+        desc: '',
     },
     {
         imgUrl: 'assets/images/skill/icon/04.jpg',
         imgAlt: 'skill rajibraj91 rajibraj',
         title: 'Educator Helps',
-        desc: 'You pick the schedule.',
+        desc: '',
     },
 ]
 

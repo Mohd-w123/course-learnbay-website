@@ -1,10 +1,10 @@
 
 import { Link } from "react-router-dom";
 
-const price = "89";
+const price = "";
 const excenge = "Limited time offer";
 const paymentTitle = "Secure Payment:";
-const shareTitle = "Share This Course:";
+const shareTitle = "Follow us On";
 const btnText = "Enrolled Now";
 
 
@@ -24,21 +24,21 @@ const csdcList = [
         leftText: 'Online Class',
         rightText: '08',
     },
-    {
-        iconName: 'icofont-video-alt',
-        leftText: 'Lessions',
-        rightText: '18x',
-    },
-    {
-        iconName: 'icofont-abacus-alt',
-        leftText: 'Quizzes',
-        rightText: '0',
-    },
-    {
-        iconName: 'icofont-hour-glass',
-        leftText: 'Pass parcentages',
-        rightText: '80',
-    },
+    // {
+    //     iconName: 'icofont-video-alt',
+    //     leftText: 'Lessions',
+    //     rightText: '18x',
+    // },
+    // {
+    //     iconName: 'icofont-abacus-alt',
+    //     leftText: 'Quizzes',
+    //     rightText: '0',
+    // },
+    // {
+    //     iconName: 'icofont-hour-glass',
+    //     leftText: 'Pass parcentages',
+    //     rightText: '80',
+    // },
     {
         iconName: 'icofont-certificate',
         leftText: 'Certificate',
@@ -53,20 +53,23 @@ const csdcList = [
 
 const socialList = [
     {
-        siteLink: '#',
+        siteLink: 'https://twitter.com/Learnbay',
         iconName: 'icofont-twitter',
         className: 'twitter',
     },
     {
-        siteLink: '#',
-        iconName: 'icofont-vimeo',
-        className: 'vimeo',
-    },
-    {
-        siteLink: '#',
-        iconName: 'icofont-rss',
+        siteLink: 'https://www.youtube.com/channel/UC-ntE_GnjjiUuKYqih9ENYA/featured',
+        iconName: 'icofont-youtube',
         className: 'rss',
     },
+
+    {
+        siteLink: 'https://www.linkedin.com/company/learnbay/?original_referer=http%3A%2F%2Flocalhost%3A3001%2F',
+        iconName: 'icofont-linkedin',
+        className: 'rss',
+    },
+
+
 ]
 
 const CourseSideDetail = () => {
@@ -74,7 +77,7 @@ const CourseSideDetail = () => {
         <div className="course-side-detail">
             <div className="csd-title">
                 <div className="csdt-left">
-                    <h4 className="mb-0"><sup>$</sup>{price}</h4>
+                    {/* <h4 className="mb-0"><sup>$</sup>{price}</h4> */}
                 </div>
                 <div className="csdt-right">
                     <p className="mb-0"><i className="icofont-clock-time"></i>{excenge}</p>
@@ -112,7 +115,7 @@ const CourseSideDetail = () => {
                     </div>
                 </div>
                 <div className="course-enroll">
-                    <Link to="/signup" className="lab-btn"><span>{btnText}</span></Link>
+                    <Link to="/applynow" className="lab-btn"><span>{btnText}</span></Link>
                 </div>
             </div>
         </div>

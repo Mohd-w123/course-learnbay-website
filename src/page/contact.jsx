@@ -5,9 +5,9 @@ import PageHeader from "../component/layout/pageheader";
 import GoogleMap from "../component/sidebar/googlemap";
 
 
-const subTitle = "Get in touch with us";
-const title = "We're Always Eager To Hear From You!";
-const conSubTitle = "Get in touch with Contact us";
+const subTitle = "We`re Here To Help You";
+const title = "Got A Course In Mind? We’d Love To Hear And Help You Decide On A Course.";
+const conSubTitle = "";
 const conTitle = "Fill The Form Below So We Can Get To Know You And Your Needs Better.";
 const btnText = "Send our Message";
 
@@ -17,26 +17,21 @@ const contactList = [
         imgUrl: 'assets/images/icon/01.png',
         imgAlt: 'contact icon',
         title: 'Office Address',
-        desc: '1201 park street, Fifth Avenue',
+        desc: '#1090 , 1st floor, 18th cross road HSR layout sector 3, Bangalore - 560102 (Above Sangam Sweets)',
     },
     {
         imgUrl: 'assets/images/icon/02.png',
         imgAlt: 'contact icon',
-        title: 'Phone number',
-        desc: '+22698 745 632,02 982 745',
+        title: 'Phone',
+        desc: '(+91) 77956 87988',
     },
     {
         imgUrl: 'assets/images/icon/03.png',
         imgAlt: 'contact icon',
         title: 'Send email',
-        desc: 'adminedukon@gmil.com',
+        desc: 'info@learnbay-courses.in',
     },
-    {
-        imgUrl: 'assets/images/icon/04.png',
-        imgAlt: 'contact icon',
-        title: 'Our website',
-        desc: 'www.edukon.com',
-    },
+   
 ]
 
 
@@ -82,7 +77,7 @@ const ContactPage = () => {
                         <h2 className="title">{conTitle}</h2>
                     </div>
                     <div className="section-wrapper">
-                        <form className="contact-form">
+                        <form action="https://getform.io/f/94c74039-f505-4ebf-922e-b4728bd793e3" method="POST" className="contact-form">
                             <div className="form-group">
                                 <input
                                     type="text"
@@ -119,7 +114,7 @@ const ContactPage = () => {
                                 ></textarea>
                             </div>
                             <div className="form-group w-100 text-center">
-                                <button className="lab-btn"><span>{btnText}</span></button>
+                                <button className="lab-btn" type="submit"><span>{btnText}</span></button>
                             </div>
                         </form>
                     </div>

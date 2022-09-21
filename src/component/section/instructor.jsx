@@ -3,41 +3,41 @@ import { Link } from "react-router-dom";
 import Rating from "../sidebar/rating";
 
 
-const subTitle = "World-class Instructors";
-const title = "Classes Taught By Real Creators";
+const subTitle = "How it has helped them accelerate their careers to the next level.";
+const title = "What People Say";
 
 const instructorList = [
     {
-        imgUrl: 'assets/images/instructor/01.jpg',
+        imgUrl: 'assets/images/instructor/instructor.png',
         imgAlt: 'instructor rajibraj91 rajibraj',
-        name: 'Emilee Logan',
-        degi: 'Master of Education Degree',
-        courseCount: '08 courses',
-        studentAnroll: '30 students',
+        name: 'Pareksha Mishra',
+        degi: 'Working at HCL',
+        // courseCount: '08 courses',
+        // studentAnroll: '30 students',
     },
     {
-        imgUrl: 'assets/images/instructor/02.jpg',
+        imgUrl: 'assets/images/instructor/instructor 1.png',
         imgAlt: 'instructor rajibraj91 rajibraj',
-        name: 'Donald Logan',
-        degi: 'Master of Education Degree',
-        courseCount: '08 courses',
-        studentAnroll: '30 students',
+        name: 'Mohammad Israr ',
+        degi: 'Working at TCS',
+        // courseCount: '08 courses',
+        // studentAnroll: '30 students',
     },
     {
-        imgUrl: 'assets/images/instructor/03.jpg',
+        imgUrl: 'assets/images/instructor/instructor 2.png',
         imgAlt: 'instructor rajibraj91 rajibraj',
-        name: 'Oliver Porter',
-        degi: 'Master of Education Degree',
-        courseCount: '08 courses',
-        studentAnroll: '30 students',
+        name: 'Arvind Kumar',
+        degi: 'Working at Amazon',
+        // courseCount: '08 courses',
+        // studentAnroll: '30 students',
     },
     {
-        imgUrl: 'assets/images/instructor/04.jpg',
+        imgUrl: 'assets/images/instructor/instructor 3.png',
         imgAlt: 'instructor rajibraj91 rajibraj',
-        name: 'Nahla Jones',
-        degi: 'Master of Education Degree',
-        courseCount: '08 courses',
-        studentAnroll: '30 students',
+        name: 'Ritish Kumar',
+        degi: 'Working at Capgemini',
+        // courseCount: '08 courses',
+        // studentAnroll: '30 students',
     },
 ]
 
@@ -65,18 +65,18 @@ const Instructor = () => {
                                             <Rating />
                                         </div>
                                     </div>
-                                    <div className="instructor-footer">
+                                    {/* <div className="instructor-footer">
                                         <ul className="lab-ul d-flex flex-wrap justify-content-between align-items-center">
                                             <li><i className="icofont-book-alt"></i> {val.courseCount}</li>
                                             <li><i className="icofont-users-alt-3"></i> {val.studentAnroll}</li>
                                         </ul>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         ))}
                     </div>
                     <div className="text-center footer-btn">
-                        <p>Want to help people learn, grow and achieve more in life?<Link to="/team">Become an instructor</Link></p>
+                        <p>Want to help people learn, grow and achieve more in life?<Link to="/contact">Apply Now</Link></p>
                     </div>
                 </div>
             </div>

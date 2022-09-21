@@ -54,7 +54,7 @@ const InstructorPage = () => {
                                                 <img src={`${val.imgUrl}`} alt={`${val.imgAlt}`} />
                                             </div>
                                             <div className="category-content">
-                                                <Link to="/signup"><h4>{val.title}</h4></Link>
+                                                <Link to="/applynow"><h4>{val.title}</h4></Link>
                                                 <p>{val.desc}</p>
                                             </div>
                                         </div>

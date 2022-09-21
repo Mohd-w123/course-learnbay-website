@@ -3,8 +3,8 @@
 const subTitle = "Save The Day";
 const title = <h2 className="title">Join on Day Long Free Workshop for <b>Advance</b> <span className="yellow-color">PHP</span> <b>Language</b></h2>;
 const desc = "Limited Time Offer! Hurry Up";
-const regTitle = "Register Now";
-const btnText = "Register Now";
+const regTitle = "Apply now for book demo session";
+const btnText = "Submit Now";
 
 const Register = () => {
     return (

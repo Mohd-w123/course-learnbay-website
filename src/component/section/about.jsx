@@ -1,9 +1,9 @@
 
 
 
-const subTitle = "About Our Edukon";
-const title = "Good Qualification Services And Better Skills";
-const desc = "Distinctively provide acces mutfuncto users whereas transparent proceses somes ncentivize eficient functionalities rather than extensible archtectur communicate leveraged services and cross-platform.";
+const subTitle = "Our Key Features";
+const title = "Why Learnbay";
+const desc = "Work on Industry Certified Project in offline mode in multiple cities across India. Collaborate with Project Mentors and other learners to get hands-on experience.";
 
 
 
@@ -12,19 +12,19 @@ const aboutList = [
         imgUrl: 'assets/images/about/icon/01.jpg',
         imgAlt: 'about icon rajibraj91 rajibraj',
         title: 'Skilled Instructors',
-        desc: 'Distinctively provide acces mutfuncto users whereas communicate leveraged services',
+        desc: 'Extensive hands-on expertise across several domains',
     },
     {
         imgUrl: 'assets/images/about/icon/02.jpg',
         imgAlt: 'about icon rajibraj91 rajibraj',
         title: 'Get Certificate',
-        desc: 'Distinctively provide acces mutfuncto users whereas communicate leveraged services',
+        desc: 'Get certificate from IBM for your capstone project',
     },
     {
         imgUrl: 'assets/images/about/icon/03.jpg',
         imgAlt: 'about icon rajibraj91 rajibraj',
         title: 'Online Classes',
-        desc: 'Distinctively provide acces mutfuncto users whereas communicate leveraged services',
+        desc: 'Live 1:1 - Resolve any doubts about projects and assignments',
     },
 ]
 

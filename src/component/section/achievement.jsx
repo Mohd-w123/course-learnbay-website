@@ -2,25 +2,25 @@
 import CountUp from 'react-countup';
 
 const subTitle = "START TO SUCCESS";
-const title = "Achieve Your Goals With Edukon";
+const title = "Achieve Your Goals With Learnbay";
 
 
 const achievementList = [
     {
-        count: '30',
-        desc: 'Years of Language Education Experience',
+        count: '250',
+        desc: 'Highest Salary Hike %',
     },
     {
-        count: '3084',
-        desc: 'Learners Enrolled in Edukon Courses',
+        count: '97',
+        desc: 'Average Salary Hike in %',
     },
     {
-        count: '330',
-        desc: 'Qualified Teachers And Language Experts',
+        count: '350',
+        desc: 'Hiring Partners',
     },
     {
-        count: '2300',
-        desc: 'Innovative Foreign Language Courses',
+        count: '1000',
+        desc: 'Careers Reshaped',
     },
 ]
 
@@ -28,18 +28,18 @@ const achieveList = [
     {
         imgUrl: 'assets/images/achive/01.png',
         imgAlt: 'achive thumb rajibraj91 rajibraj',
-        title: 'Start Teaching Today',
-        desc: 'Seamlessly engage technically sound coaborative reintermed goal oriented content rather than ethica',
-        btnText: 'Become A Instructor',
-        siteLink: '#',
+        title: 'Domain Specialized Projects',
+        desc: 'Work with real-time data sets gathered from renowned data sources provided by startups and MNCs in India.',
+        btnText: 'Apply For Counselling',
+        siteLink: '/applynow',
     },
     {
         imgUrl: 'assets/images/achive/02.png',
         imgAlt: 'achive thumb rajibraj91 rajibraj',
-        title: 'If You Join Our Course',
-        desc: 'Seamlessly engage technically sound coaborative reintermed goal oriented content rather than ethica',
-        btnText: 'Register For Free',
-        siteLink: '#',
+        title: 'Job Assistance Program',
+        desc: 'Become job ready with our resume preparation and mock interview sessions from industry experts. Crack interview in top companies with confidence',
+        btnText: 'Request For Callback',
+        siteLink: '/applynow',
     },
 ]
 

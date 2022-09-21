@@ -1,26 +1,26 @@
 
 
 
-const subTitle = "Online education";
-const title = <h2 className="title"><span className="d-lg-block">Learn The</span> Skills You Need <span className="d-lg-block">To Succeed</span></h2>;
-const desc = "Free online courses from the world’s Leading experts. join 18+ million Learners today.";
+const subTitle = "# 1 Domain Specialised";
+const title = <h2 className="title"><span className="d-lg-block">Certification Program For Working Professionals</span> </h2>;
+const desc = "Use your domain expertise to build a meaningful career. Crack interview in top product based MNCs and MAANG with confidence";
 
 
 const catagoryList = [
     {
-        name: 'Figma',
+        name: 'Data Science & AI',
         link: '#',
     },
     {
-        name: 'Adobe XD',
+        name: 'Full Stack Development',
         link: '#',
     },
     {
-        name: 'illustration',
+        name: 'Data Science Foundation Program',
         link: '#',
     },
     {
-        name: 'Photoshop',
+        name: 'Advanced Data Science and AI Program',
         link: '#',
     },
 ]
@@ -65,13 +65,14 @@ const Banner = () => {
                                 <h6 className="subtitle text-uppercase fw-medium">{subTitle}</h6>
                                 {title}
                                 <p className="desc">{desc}</p>
-                                <form action="/">
+
+                                {/* <form action="/">
                                     <div className="banner-icon">
                                         <i className="icofont-search"></i>
                                     </div>
                                     <input type="text" placeholder="Keywords of your course" />
-                                    <button type="submit">Search Course</button>
-                                </form>
+                                    <button type="submit">inquiry</button>
+                                </form> */}
                                 <div className="banner-catagory d-flex flex-wrap">
                                     <p>Most Popular : </p>
                                     <ul className="lab-ul d-flex flex-wrap">

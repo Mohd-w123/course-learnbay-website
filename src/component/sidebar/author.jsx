@@ -27,11 +27,7 @@ const socialList = [
         iconName: 'icofont-instagram',
         className: 'instagram',
     },
-    {
-        link: '#',
-        iconName: 'icofont-pinterest',
-        className: 'pinterest',
-    },
+  
 ]
 
 const Author = () => {

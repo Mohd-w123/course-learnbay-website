@@ -1,28 +1,28 @@
 
 import { Link } from "react-router-dom";
 
-const subTitle = "Popular Category";
-const title = "Popular Category For Learn";
+const subTitle = "Our Domain Specialisation and Industry Certified Capstone Projects helps you to make your past work experience relevant";
+const title = "Get Certified & Move Towards Your Dream Job";
 const btnText = "Browse All Categories";
 
 
 const categoryList = [
     {
         imgUrl: 'assets/images/category/icon/01.jpg',
-        imgAlt: 'category rajibraj91 rajibraj',
+        imgAlt: '100% Live Online Classes',
         title: 'Computer Science',
         count: '24 Course',
     },
     {
         imgUrl: 'assets/images/category/icon/02.jpg',
-        imgAlt: 'category rajibraj91 rajibraj',
+        imgAlt: 'IBM Certified Capstone',
         title: 'Civil Engineering',
         count: '04 Course',
     },
     {
         imgUrl: 'assets/images/category/icon/03.jpg',
-        imgAlt: 'category rajibraj91 rajibraj',
-        title: 'Business Analysis',
+        imgAlt: 'Guaranteed Job Referral',
+        title: '100% Live Online Classes',
         count: '27 Course',
     },
     {
