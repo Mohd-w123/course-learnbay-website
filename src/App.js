@@ -1,6 +1,8 @@
 
-import {BrowserRouter, Routes, Route } from "react-router-dom";
 import 'swiper/css';
+
+import {BrowserRouter, Routes, Route, Link } from "react-router-dom";
+
 
 
 import ScrollToTop from "./component/layout/ScrollToTop";
@@ -40,33 +42,35 @@ function App() {
 		<BrowserRouter>
 			<ScrollToTop />
 			<Routes>
-				<Route path="/" element={<Home />} />
+				{/* <Route path="/" element={<App />}> */}
+        		<Route index element={<Home />} />
+				{/* <Route path="/" element={<Home />} /> */}
 				{/* <Route path="index-2" element={<HomeTwo />} />
 				<Route path="index-3" element={<HomeThree />} />
 				<Route path="index-4" element={<HomeFour />} />
 				<Route path="index-5" element={<HomeFive />} />
 				<Route path="index-6" element={<HomeSix />} /> */}
-				<Route path="course" element={<CoursePage />} />
-				<Route path="course-single" element={<CourseSingle />} />
-				<Route path="advance-data-science-certification-courses" element={<AdvanceDataScienceCertificationCourses  />} />
+				<Route exact path="course" element={<CoursePage />} />
+				<Route exact path="course-single" element={<CourseSingle />} />
+				<Route exact path="advance-data-science-certification-courses" element={<AdvanceDataScienceCertificationCourses  />} />
 				{/* <Route path="blog" element={<BlogPage />} />
 				<Route path="blog-2" element={<BlogPageTwo />} />
 				<Route path="blog-3" element={<BlogPageThree />} />
 				<Route path="blog-single" element={<BlogSingle />} /> */}
-				<Route path="about" element={<AboutPage />} />
-				<Route path="team" element={<TeamPage />} />
+				<Route exact path="about" element={<AboutPage />} />
+				<Route exact path="team" element={<TeamPage />} />
 				{/* <Route path="team-single" element={<TeamSingle />} /> */}
-				<Route path="instructor" element={<InstructorPage />} />
+				<Route exact path="instructor" element={<InstructorPage />} />
 				{/* <Route path="shop" element={<ShopPage />} />
 				<Route path="shop-single" element={<ShopDetails />} />
 				<Route path="cart-page" element={<CartPage />} />
 				<Route path="search-page" element={<SearchPage />} />
 				<Route path="search-none" element={<SearchNone />} /> */}
-				<Route path="contact" element={<ContactPage />} />
+				<Route exact path="contact" element={<ContactPage />} />
 				{/* <Route path="login" element={<LoginPage />} /> */}
-				<Route path="applynow" element={<ApplynowPage />} />
+				<Route exact path="applynow" element={<ApplynowPage />} />
 				{/* <Route path="forgetpass" element={<ForgetPass />} /> */}
-				<Route path="*" element={<ErrorPage />} />
+				<Route exact path="*" element={<ErrorPage />} />
 			</Routes>
 		</BrowserRouter>
 	);

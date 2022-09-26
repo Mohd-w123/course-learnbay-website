@@ -5,28 +5,32 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 const sponsorList = [
     {
-        imgUrl: 'assets/images/sponsor/01.png',
-        imgAlt: 'sponsor rajibraj91 rajibraj',
+        imgUrl: 'assets/images/about/c1.png',
+        imgAlt: 'c1',
     },
     {
-        imgUrl: 'assets/images/sponsor/02.png',
-        imgAlt: 'sponsor rajibraj91 rajibraj',
+        imgUrl: 'assets/images/about/c2.png',
+        imgAlt: 'c2',
     },
     {
-        imgUrl: 'assets/images/sponsor/03.png',
-        imgAlt: 'sponsor rajibraj91 rajibraj',
+        imgUrl: 'assets/images/about/c3.png',
+        imgAlt: 'c3',
     },
     {
-        imgUrl: 'assets/images/sponsor/04.png',
-        imgAlt: 'sponsor rajibraj91 rajibraj',
+        imgUrl: 'assets/images/about/c4.png',
+        imgAlt: 'c4',
     },
     {
-        imgUrl: 'assets/images/sponsor/05.png',
-        imgAlt: 'sponsor rajibraj91 rajibraj',
+        imgUrl: 'assets/images/about/c5.png',
+        imgAlt: 'c5',
     },
     {
-        imgUrl: 'assets/images/sponsor/06.png',
-        imgAlt: 'sponsor rajibraj91 rajibraj',
+        imgUrl: 'assets/images/about/c6.png',
+        imgAlt: 'c6',
+    },
+    {
+        imgUrl: 'assets/images/about/c7.png',
+        imgAlt: 'c7',
     },
 ]
 
