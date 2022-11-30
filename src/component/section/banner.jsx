@@ -1,3 +1,5 @@
+import { Link, NavLink } from "react-router-dom";
+
 
 
 
@@ -73,6 +75,10 @@ const Banner = () => {
                                     <input type="text" placeholder="Keywords of your course" />
                                     <button type="submit">inquiry</button>
                                 </form> */}
+
+                <a href="https://course.learnbay.co/apply-for-counselling-email-marketing" target="_blank" className="apply-now"><i className="icofont-users" style={{color:"#fff"}}></i> <span style={{color:"#fff"}}>Apply Now</span> </a>
+
+
                                 <div className="banner-catagory d-flex flex-wrap">
                                     <p>Most Popular : </p>
                                     <ul className="lab-ul d-flex flex-wrap">

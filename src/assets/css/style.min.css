@@ -9075,4 +9075,12 @@ footer.style-2 .footer-top.dark-view * {
     }
 }
 
+
+.apply-now {
+    background-color: #0d6efd;
+    padding: 8px 20px 8px 20px;
+    font-size: 23px;
+    border-radius: 31px;
+}
+
 /*# sourceMappingURL=style.min.css.map */

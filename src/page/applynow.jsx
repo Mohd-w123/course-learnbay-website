@@ -55,6 +55,7 @@ const ApplynowPage = () => {
                                     type="text"
                                     name="name"
                                     placeholder="Full Name"
+                                    required
                                 />
                             </div>
                             <div className="form-group">
@@ -62,6 +63,7 @@ const ApplynowPage = () => {
                                     type="email"
                                     name="email"
                                     placeholder="Email"
+                                    required
                                 />
                             </div>
                             <div className="form-group">
@@ -69,6 +71,7 @@ const ApplynowPage = () => {
                                     type="Phone Number"
                                     name="phone"
                                     placeholder="Phone"
+                                    required
                                 />
                             </div>
                             <div className="form-group">

@@ -83,6 +83,7 @@ const ContactPage = () => {
                                     type="text"
                                     name="name"
                                     placeholder="Your Name *"
+                                    required
                                 />
                             </div>
                             <div className="form-group">
@@ -90,6 +91,7 @@ const ContactPage = () => {
                                     type="text"
                                     name="email"
                                     placeholder="Your Email *"
+                                    required
                                 />
                             </div>
                             <div className="form-group">
@@ -97,6 +99,7 @@ const ContactPage = () => {
                                     type="text"
                                     name="number"
                                     placeholder="Mobile Number *"
+                                    required
                                 />
                             </div>
                             <div className="form-group">
@@ -104,6 +107,7 @@ const ContactPage = () => {
                                     type="text"
                                     name="subject"
                                     placeholder="Your Subject *"
+                                    
                                 />
                             </div>
                             <div className="form-group w-100">
